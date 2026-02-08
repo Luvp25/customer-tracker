@@ -38,4 +38,7 @@ customers[2].Email = "Suiii7@yahoo.com";
 customers[1].Purchases.push("Shoulder pads");
 
 //Display customer info
-console.log(customers);
+customers.forEach(function(cust)
+    {
+        console.log(`Name: ${cust.Name} | Email: ${cust.Email} | Purchases: ${cust.Purchases}`)
+    });
