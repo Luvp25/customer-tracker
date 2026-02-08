@@ -1,1 +1,1 @@
-This file manages customer records by storing their Name, Email, and purchases.
+This file manages customer records by storing their Name, Email, and Purchases.
